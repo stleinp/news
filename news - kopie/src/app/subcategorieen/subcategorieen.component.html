@@ -1,0 +1,7 @@
+<h2>Kies de subcategorie</h2>
+<div *ngFor="let so of subOnderwerp">
+    <button (click)="veranderSub($event)" >{{so}}</button><br>
+</div><br>
+<div>
+  <button routerLink="/overzicht">Back</button>
+</div>

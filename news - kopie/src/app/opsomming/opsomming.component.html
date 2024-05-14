@@ -1,0 +1,5 @@
+<h2 *ngIf="subNieuwsitems.length!=0">Kies uw tekst</h2>
+<div *ngFor="let ni of subNieuwsitems">
+  <li><a routerLink="/details/{{ni.id}}">{{ni.title}}</a></li>
+</div>
+

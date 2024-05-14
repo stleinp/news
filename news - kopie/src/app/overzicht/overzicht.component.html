@@ -1,0 +1,4 @@
+<h2>Kies uw onderwerp</h2>
+<div *ngFor="let onderwerp of onderwerpen">
+  <button routerLink="/keuze/{{onderwerp.id}}">{{onderwerp.title}}</button><br>
+</div>
